@@ -2,6 +2,4 @@
 Welcome to my resume website repository! My website is https://albertyusun.com.
 
 ### Sources:
-I've used GitHub/MIT's personal website template, which you can find at https://github.com/github/personal-website.
-
-I'm working to completely overhaul this website in efforts to learn HTML, CSS, and Jekyll.
+I started with GitHub/MIT's personal website template, but I have been working to completely rehaul the template. You can find the original template at https://github.com/github/personal-website.
