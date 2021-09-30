@@ -1,5 +1,5 @@
 # Albert Sun's Website
-Welcome to my resume website repository! My website is https://albertyusun.com.
 
-### Sources:
-I started with Brandon Rosage's personal website template, but I have been working to completely rehaul the template. You can find the original template at https://github.com/github/personal-website.
+Welcome to my resume website repository! Here's the website's [link](https://albertyusun.com).
+
+This website was built using Jekyll and hosted by GitHub Pages/GitHub's API. Learn more about those technologies [here](https://github.com/github/personal-website).
