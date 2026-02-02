@@ -1,26 +1,52 @@
 # Personal Research Website
 
-A sleek academic profile website built with Flask and HTMX, powered by YAML configuration.
+A static academic profile website powered by YAML configuration and deployed on GitHub Pages.
 
-## Setup
+## Quick Start
 
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+### Making Changes
 
-2. Run the application:
-```bash
-python app.py
-```
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-3. Visit `http://localhost:5000` in your browser.
+2. **Edit your data:**
+   Update `data.yaml` with your information (name, role, publications, etc.)
+
+3. **Build the site:**
+   ```bash
+   python build.py
+   ```
+   This generates `index.html` from your YAML data.
+
+4. **Preview locally:**
+   ```bash
+   python -m http.server 8000
+   ```
+   Visit `http://localhost:8000`
+
+5. **Deploy:**
+   ```bash
+   git add index.html data.yaml
+   git commit -m "Update profile"
+   git push
+   ```
+
+## GitHub Pages Setup
+
+1. Go to your repository settings on GitHub
+2. Navigate to **Pages** (under "Code and automation")
+3. Set **Source** to "Deploy from a branch"
+4. Select your branch (e.g., `master` or `main`)
+5. Save and wait a few minutes
+6. Visit `https://albertyusun.github.io`
 
 ## Configuration
 
-Edit `data.yaml` to update your profile information, including:
-- Personal information
-- Contact links
+Edit `data.yaml` to update:
+- Personal information (name, role, company, location)
+- Contact links (Google Scholar, LinkedIn, etc.)
 - Research news
 - Publications
 - Previous experiences
@@ -28,21 +54,33 @@ Edit `data.yaml` to update your profile information, including:
 ## Project Structure
 
 ```
-personal-website/
-├── app.py              # Flask application
-├── data.yaml           # Profile data configuration
-├── requirements.txt    # Python dependencies
+albertyusun.github.io/
+├── build.py                    # Build script (generates static HTML)
+├── data.yaml                   # Your profile data (edit this!)
+├── index.html                  # Generated static site (committed to git)
+├── requirements.txt            # Python dependencies for building
 ├── templates/
-│   └── index.html      # Main template
+│   └── index_static.html       # Jinja2 template
 └── static/
     ├── css/
-    │   └── style.css   # Styles
+    │   └── style.css           # Styles
     └── images/
-        └── placeholder.jpg  # Profile photo (replace with your own)
+        └── albert.jpeg         # Your profile photo
 ```
+
+## Development Files (Not Deployed)
+
+These files are used for development but not deployed to GitHub Pages:
+- `app.py` - Original Flask application (kept for reference)
+- `templates/index.html` - Original Flask template
+- `build.py` - Build script
+- `templates/index_static.html` - Static template
 
 ## Customization
 
-- Replace `static/images/placeholder.jpg` with your own photo
-- Update `data.yaml` with your information
-- Modify `static/css/style.css` to customize the design
+- **Photo:** Replace `static/images/albert.jpeg` with your photo
+- **Data:** Update `data.yaml` with your information
+- **Styling:** Modify `static/css/style.css`
+- **Template:** Edit `templates/index_static.html`
+
+After changes, always run `python build.py` to regenerate `index.html`.
