@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ data.name }} - Research Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="profile-header">
+            <h1 class="name">{{ data.name }}</h1>
+
+            <div class="three-column-layout">
+                <div class="profile-photo">
+                    <img src="{{ url_for('static', filename='images/' + data.photo) }}" alt="{{ data.name }}">
+                </div>
+
+                <div class="intro">
+                    <p>
+                        I'm a <strong>{{ data.role }}</strong> at <strong>{{ data.company }}</strong> in <strong>{{ data.location }}</strong>.
+                        I'm currently building <strong>large-scale legal reasoning benchmarks</strong> for large language models.
+                        Previously, I worked on topics of <strong>differential privacy</strong>, <strong>ML interpretability</strong>, and <strong>AI safety</strong>.
+                    </p>
+                </div>
+
+                <div class="contact-links">
+                    {% for link in data.contact %}
+                    <a href="{{ link.url }}" class="contact-link" target="_blank" rel="noopener noreferrer">
+                        <span class="prefix">{{ link.prefix }}</span> {{ link.label }}
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </header>
+
+        <main>
+            {% if data.recent_publications %}
+            <section class="section">
+                <h2>Recent Publications</h2>
+                <ul class="publications-list">
+                    {% for pub in data.recent_publications %}
+                    <li>{{ pub }}</li>
+                    {% endfor %}
+                </ul>
+            </section>
+            {% endif %}
+
+            <section class="section">
+                <h2>Research News</h2>
+                <ul class="news-list">
+                    {% for news in data.research_news %}
+                    <li>
+                        <span class="date">{{ news.date }}:</span> {{ news.content }}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>Previous Experiences</h2>
+                <ul class="experience-list">
+                    {% for exp in data.previous_experiences %}
+                    <li>
+                        <strong>{{ exp.organization }}</strong> - {{ exp.title }} <span class="years">({{ exp.years }})</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 {{ data.name }}. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
