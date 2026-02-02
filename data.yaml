@@ -1,0 +1,50 @@
+name: Albert Sun
+role: ML Research Engineer
+company: Epiq AI Labs
+location: New York City, NY
+
+photo: albert.jpeg
+
+contact:
+  # - prefix: "Email:"
+  #   label: alsunyu@gmail.com
+  #   url: mailto:alsunyu@gmail.com
+  # - prefix: "Twitter:"
+  #   label: "@albertyusun"
+  #   url: https://twitter.com/Albertyusun
+  - prefix: "Google Scholar:"
+    label: "@albertyusun"
+    url: https://scholar.google.com/citations?user=1BNAKBwAAAAJ&hl=en
+  - prefix: "LinkedIn:"
+    label: "@albertyusun"
+    url: https://www.linkedin.com/in/albertyusun/
+  # - prefix: "GitHub:"
+  #   label: "@albertyusun"
+  #   url: https://github.com/albertyusun
+
+recent_publications: []
+
+research_news:
+  - date: "March 2024"
+    content: 'My first-author paper, "CONSCENDI: A Contrastive and Scenario-Guided Distillation Approach to Guardrail Models for Virtual Assistants", was accepted to NAACL 2024! See you in New Mexico.'
+  - date: "March 2023"
+    content: "I served as a reviewer for EMNLP 2023."
+  - date: "July 2023"
+    content: 'We submitted our preprint "Does fine-tuning GPT-3 with the OpenAI API leak personally-identifiable information?" to Arxiv. This was my first project at DynamoFL, and we were first to analyze privacy leakage from OpenAI''s fine-tuning API.'
+
+previous_experiences:
+  - title: ML Research Engineer II
+    organization: Dynamo AI
+    years: "2023-2025"
+  - title: ML Research Intern
+    organization: Curai Health
+    years: "2023"
+  - title: ML Research Intern
+    organization: Microsoft Research
+    years: "2022"
+  - title: Data Science Intern
+    organization: Vera Institute of Justice
+    years: "2020-2021"
+  - title: Legal Intern
+    organization: ACLU
+    years: "2020"

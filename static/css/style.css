@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #3d3226;
+    background-color: #e8dfd0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #FAF8F3;
+    min-height: 100vh;
+    border-left: 1px solid #d4c4a8;
+    border-right: 1px solid #d4c4a8;
+}
+
+.profile-header {
+    margin-bottom: 50px;
+}
+
+.name {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #3d3226;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.three-column-layout {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+}
+
+.profile-photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    object-fit: cover;
+    border: 2px solid #8b6f47;
+}
+
+.intro {
+    background-color: transparent;
+    padding: 0 0 0 20px;
+    border-radius: 0;
+    border-left: 2px solid #8b6f47;
+}
+
+.intro p {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid #d4c4a8;
+    border-radius: 0;
+    text-decoration: none;
+    color: #5d4a2f;
+    transition: all 0.2s ease;
+    font-size: 0.95rem;
+}
+
+.contact-link:hover {
+    background-color: transparent;
+    border-color: #8b6f47;
+    text-decoration: underline;
+}
+
+.contact-link .prefix {
+    margin-right: 8px;
+    font-weight: 600;
+    color: #8b6f47;
+}
+
+main {
+    margin-top: 60px;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.section h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #3d3226;
+    border-bottom: 1px solid #8b6f47;
+    padding-bottom: 10px;
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+}
+
+.news-list, .experience-list, .publications-list {
+    list-style: none;
+}
+
+.news-list li, .experience-list li, .publications-list li {
+    padding: 15px 20px;
+    margin-bottom: 12px;
+    background-color: transparent;
+    border-radius: 0;
+    border-left: 2px solid #A0522D;
+    transition: all 0.2s ease;
+}
+
+.news-list li:hover, .experience-list li:hover, .publications-list li:hover {
+    background-color: transparent;
+    border-left-color: #5d4a2f;
+}
+
+.date {
+    font-weight: 600;
+    color: #A0522D;
+}
+
+.years {
+    color: #8b6f47;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+footer {
+    margin-top: 60px;
+    padding-top: 30px;
+    border-top: 1px solid #8b6f47;
+    text-align: center;
+    color: #8b6f47;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .three-column-layout {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .name {
+        font-size: 2rem;
+    }
+
+    .profile-photo {
+        text-align: center;
+    }
+
+    .profile-photo img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .container {
+        padding: 20px 15px;
+    }
+}
