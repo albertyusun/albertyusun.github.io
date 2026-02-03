@@ -6,23 +6,62 @@ location: New York City, NY
 photo: albert.jpeg
 
 contact:
-  # - prefix: "Email:"
-  #   label: alsunyu@gmail.com
-  #   url: mailto:alsunyu@gmail.com
-  # - prefix: "Twitter:"
-  #   label: "@albertyusun"
-  #   url: https://twitter.com/Albertyusun
+  - prefix: "Email:"
+    label: alsunyu@gmail.com
+    url: mailto:alsunyu@gmail.com
   - prefix: "Google Scholar:"
     label: "@albertyusun"
     url: https://scholar.google.com/citations?user=1BNAKBwAAAAJ&hl=en
   - prefix: "LinkedIn:"
     label: "@albertyusun"
     url: https://www.linkedin.com/in/albertyusun/
-  # - prefix: "GitHub:"
-  #   label: "@albertyusun"
-  #   url: https://github.com/albertyusun
+  - prefix: "Twitter:"
+    label: "@albertyusun"
+    url: https://twitter.com/Albertyusun
 
-recent_publications: []
+publications:
+  - title: "CONSCENDI: A Contrastive and Scenario-Guided Distillation Approach to Guardrail Models for Virtual Assistants"
+    authors: "<strong>Albert Yu Sun</strong>, Varun Nair, Elliot Schumacher, Anitha Kannan"
+    venue: "NAACL"
+    year: "2024"
+    patent: "US Patent 12,259,952, 2025"
+    links:
+      - label: "Paper"
+        url: "https://arxiv.org/abs/2304.14364"
+      - label: "Dataset"
+        url: "https://huggingface.co/datasets/alsunyu/CONSCENDI-guardrail-benchmark"
+      - label: "Patent"
+        url: "https://patents.google.com/patent/US12259952B2/en"
+
+  - title: "Does fine-tuning GPT-3 with the OpenAI API leak personally-identifiable information?"
+    authors: "<strong>Albert Yu Sun</strong>, Eliott Zemour, Arushi Saxena, Udith Vaidyanathan, Eric Lin, Christian Lau, Vaikkunth Mugunthan"
+    venue: "arXiv"
+    year: "2023"
+    links:
+      - label: "Paper"
+        url: "https://arxiv.org/abs/2307.16382"
+
+  - title: "Navigating progress: Enhancing public transit for more equitable communities via interpretable causal inference"
+    authors: "Gaurav Rajesh Parikh*, Jenny Huang*, <strong>Albert Sun*</strong>, Lesia Semenova*, Cynthia Rudin*"
+    venue: "Harvard Data Science Review"
+    year: "2025"
+    workshops:
+      - "NeurIPS 2022 Causal Machine Learning for Real-World Impact"
+    awards:
+      - "Best Student Paper Award, 2022 American Statistical Association Data Challenge Expo Student Competition"
+    links:
+      - label: "Paper"
+        url: "https://hdsr.mitpress.mit.edu/pub/9zgh9isd/release/2"
+
+  - title: "Multi-Analyst Differential Privacy for Online Query Answering"
+    authors: "David Pujol, <strong>Albert Sun</strong>, Brandon Fain, Ashwin Machanavajjhala"
+    venue: "VLDB"
+    year: "2022"
+    workshops:
+      - "ICML 2022 Theory and Practice of Differential Privacy Workshop"
+    links:
+      - label: "Paper"
+        url: "https://arxiv.org/abs/2212.09884"
 
 research_news:
   - date: "March 2024"
@@ -33,6 +72,9 @@ research_news:
     content: 'We submitted our preprint "Does fine-tuning GPT-3 with the OpenAI API leak personally-identifiable information?" to Arxiv. This was my first project at DynamoFL, and we were first to analyze privacy leakage from OpenAI''s fine-tuning API.'
 
 previous_experiences:
+  - title: AI Research Engineer
+    organization: Epiq AI Labs
+    years: "2025-present"
   - title: ML Research Engineer II
     organization: Dynamo AI
     years: "2023-2025"
