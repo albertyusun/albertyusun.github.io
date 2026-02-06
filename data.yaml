@@ -24,7 +24,7 @@ publications:
     authors: "<strong>Albert Yu Sun</strong>, Varun Nair, Elliot Schumacher, Anitha Kannan"
     venue: "NAACL"
     year: "2024"
-    patent: "US Patent 12,259,952, 2025"
+    patent: "US Patent 12,259,952"
     links:
       - label: "Paper"
         url: "https://arxiv.org/abs/2304.14364"
@@ -42,11 +42,11 @@ publications:
         url: "https://arxiv.org/abs/2307.16382"
 
   - title: "Navigating progress: Enhancing public transit for more equitable communities via interpretable causal inference"
-    authors: "Gaurav Rajesh Parikh*, Jenny Huang*, <strong>Albert Sun*</strong>, Lesia Semenova*, Cynthia Rudin*"
+    authors: "Gaurav Rajesh Parikh*, Jenny Huang*, <strong>Albert Sun*</strong>, Lesia Semenova, Cynthia Rudin"
     venue: "Harvard Data Science Review"
     year: "2025"
     workshops:
-      - "NeurIPS 2022 Causal Machine Learning for Real-World Impact"
+      - "NeurIPS 2022 Causal Machine Learning for Real-World Impact Workshop"
     awards:
       - "Best Student Paper Award, 2022 American Statistical Association Data Challenge Expo Student Competition"
     links:
@@ -64,6 +64,8 @@ publications:
         url: "https://arxiv.org/abs/2212.09884"
 
 research_news:
+  - date: "May 2025"
+    content: "I've joined Epiq AI Labs as a Research Engineer to work on building evals for the legal domain. I'll be advised by Igor Labutov and Bishan Yang."
   - date: "March 2024"
     content: 'My first-author paper, "CONSCENDI: A Contrastive and Scenario-Guided Distillation Approach to Guardrail Models for Virtual Assistants", was accepted to NAACL 2024! See you in New Mexico.'
   - date: "March 2023"
