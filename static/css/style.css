@@ -133,6 +133,10 @@ main {
     border-left-color: #5d4a2f;
 }
 
+.pub-title {
+    font-weight: 600;
+}
+
 .date {
     font-weight: 600;
     color: #A0522D;

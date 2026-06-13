@@ -9,6 +9,9 @@ contact:
   - prefix: "Email:"
     label: alsunyu@gmail.com
     url: mailto:alsunyu@gmail.com
+  - prefix: "Resume:"
+    label: "View CV"
+    url: https://drive.google.com/file/d/1dtNyXGZtV7BAl0_3Vu0Oui3sC6j24R98/view?usp=sharing
   - prefix: "Google Scholar:"
     label: "@albertyusun"
     url: https://scholar.google.com/citations?user=1BNAKBwAAAAJ&hl=en
