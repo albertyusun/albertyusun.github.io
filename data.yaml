@@ -23,6 +23,11 @@ contact:
     url: https://twitter.com/Albertyusun
 
 publications:
+  - title: "CorporateBench: Large-Scale Q&A Benchmarking with Temporal Knowledge Bases"
+    authors: "Sil Hamilton, <strong>Albert Yu Sun</strong>, Oscar J. Romero, Carl-Leander Henneking, David Mimno, Bishan Yang, Igor Labutov"
+    venue: "EMNLP Findings"
+    year: "2026"
+
   - title: "CONSCENDI: A Contrastive and Scenario-Guided Distillation Approach to Guardrail Models for Virtual Assistants"
     authors: "<strong>Albert Yu Sun</strong>, Varun Nair, Elliot Schumacher, Anitha Kannan"
     venue: "NAACL"
