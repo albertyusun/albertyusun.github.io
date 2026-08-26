@@ -67,6 +67,8 @@ publications:
         url: "https://arxiv.org/abs/2212.09884"
 
 research_news:
+  - date: "August 2026"
+    content: 'Our paper, "CorporateBench: Large-Scale Q&A Benchmarking with Temporal Knowledge Bases", was accepted to EMNLP Findings 2026! See you in Budapest.'
   - date: "May 2025"
     content: "I've joined Epiq AI Labs as a Research Engineer to work on building evals for the legal domain. I'll be advised by Igor Labutov and Bishan Yang."
   - date: "March 2024"
