@@ -85,7 +85,6 @@ a {
     background-color: transparent;
     padding: 0 0 0 20px;
     border-radius: 0;
-    border-left: 2px solid #8b6f47;
 }
 
 .intro p {
@@ -138,13 +137,11 @@ main {
     margin-bottom: 12px;
     background-color: transparent;
     border-radius: 0;
-    border-left: 2px solid #8b6f47;
     transition: all 0.2s ease;
 }
 
 .news-list li:hover, .experience-list li:hover, .publications-list li:hover {
     background-color: transparent;
-    border-left-color: #3d3226;
 }
 
 .pub-title {
