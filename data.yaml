@@ -11,7 +11,7 @@ contact:
     url: mailto:alsunyu@gmail.com
   - prefix: "Resume:"
     label: "View CV"
-    url: https://drive.google.com/file/d/1dtNyXGZtV7BAl0_3Vu0Oui3sC6j24R98/view?usp=sharing
+    url: https://drive.google.com/drive/u/0/folders/12poZ6AM2OaOYk7_ocA7DgHF8g7Z3jT8G
   - prefix: "Google Scholar:"
     label: "@albertyusun"
     url: https://scholar.google.com/citations?user=1BNAKBwAAAAJ&hl=en
@@ -83,10 +83,10 @@ previous_experiences:
   - title: ML Research Engineer II
     organization: Dynamo AI
     years: "2023-2025"
-  - title: ML Research Intern
+  - title: Research Intern
     organization: Curai Health
     years: "2023"
-  - title: ML Research Intern
+  - title: Research Intern
     organization: Microsoft Research
     years: "2022"
   - title: Data Science Intern
