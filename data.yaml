@@ -27,6 +27,13 @@ publications:
     authors: "Sil Hamilton, <strong>Albert Yu Sun</strong>, Oscar J. Romero, Carl-Leander Henneking, David Mimno, Bishan Yang, Igor Labutov"
     venue: "EMNLP Findings"
     year: "2026"
+    links:
+      - label: "Paper"
+        url: "https://arxiv.org/abs/2608.27391v1"
+      - label: "Website"
+        url: "https://corporatebench.epiqai.com/"
+      - label: "Dataset"
+        url: "https://huggingface.co/datasets/epiq-ai-labs/corporatebench"
 
   - title: "CONSCENDI: A Contrastive and Scenario-Guided Distillation Approach to Guardrail Models for Virtual Assistants"
     authors: "<strong>Albert Yu Sun</strong>, Varun Nair, Elliot Schumacher, Anitha Kannan"
