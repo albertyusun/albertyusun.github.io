@@ -23,6 +23,12 @@ contact:
     url: https://twitter.com/Albertyusun
 
 publications:
+  - title: "InvestigationWorlds: An Agentic Environment for Legal Investigation"
+    authors: "<strong>Albert Sun</strong>, Andrew J. Benard, Sil Hamilton, Anna Teresita A. Marcelo, Yong Jae Kim, Carl-Leander Henneking, Rundong Hu, Yuhong Wang, David Mimno, Bishan Yang, Igor Labutov"
+    venue: "NeurIPS Evaluations and Datasets Track (Poster)"
+    year: "2026"
+    acceptance_rate: "25.8% acceptance rate"
+
   - title: "CorporateBench: Large-Scale Q&A Benchmarking with Temporal Knowledge Bases"
     authors: "Sil Hamilton, <strong>Albert Yu Sun</strong>, Oscar J. Romero, Carl-Leander Henneking, David Mimno, Bishan Yang, Igor Labutov"
     venue: "EMNLP Findings"
@@ -79,6 +85,8 @@ publications:
         url: "https://arxiv.org/abs/2212.09884"
 
 research_news:
+  - date: "September 2026"
+    content: 'Our paper, "InvestigationWorlds: An Agentic Environment for Legal Investigation", was accepted as a poster to the NeurIPS 2026 Evaluations and Datasets Track!'
   - date: "August 2026"
     content: 'Our paper, "CorporateBench: Large-Scale Q&A Benchmarking with Temporal Knowledge Bases", was accepted to EMNLP Findings 2026! See you in Budapest.'
   - date: "May 2025"
