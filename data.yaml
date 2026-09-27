@@ -46,7 +46,7 @@ publications:
     authors: "<strong>A Sun</strong>, V Nair, E Schumacher, A Kannan"
     venue: "NAACL"
     year: "2024"
-    venue_suffix: ". Granted US Patent 12,259,952 B2"
+    venue_suffix: ". Granted US Patent 12,259,952 B2."
     links:
       - label: "Paper"
         url: "https://arxiv.org/abs/2304.14364"
@@ -59,7 +59,7 @@ publications:
     authors: "<strong>A Sun</strong>, E Zemour, A Saxena, U Vaidyanathan, E Lin, C Lau, V Mugunthan"
     venue: "arXiv"
     year: "2023"
-    venue_suffix: ". (35+ citations)"
+    venue_suffix: ". (35+ citations)."
     links:
       - label: "Paper"
         url: "https://arxiv.org/abs/2307.16382"
