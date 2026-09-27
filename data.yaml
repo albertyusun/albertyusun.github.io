@@ -23,15 +23,17 @@ contact:
     url: https://twitter.com/Albertyusun
 
 publications:
-  - title: "InvestigationWorlds: An Agentic Environment for Legal Investigation"
-    authors: "<strong>Albert Yu Sun</strong>, Andrew J. Benard, Sil Hamilton, Anna Teresita A. Marcelo, Yong Jae Kim, Carl-Leander Henneking, Rundong Hu, Yuhong Wang, David Mimno, Bishan Yang, Igor Labutov"
-    venue: "NeurIPS"
+  - title: "InvestigationWorlds: An Agentic Environment for Legal Investigation."
+    authors: "<strong>A Sun</strong>, A Benard, S Hamilton, A Marcelo, Y Kim, C Henneking, R Hu, Y Wang, D Mimno, B Yang, I Labutov"
+    venue: "NeurIPS E&D"
     year: "2026"
+    venue_suffix: "."
 
-  - title: "CorporateBench: Large-Scale Q&A Benchmarking with Temporal Knowledge Bases"
-    authors: "Sil Hamilton, <strong>Albert Yu Sun</strong>, Oscar J. Romero, Carl-Leander Henneking, David Mimno, Bishan Yang, Igor Labutov"
-    venue: "EMNLP Findings"
+  - title: "CorporateBench: Large-Scale Q&A Benchmarking with Temporal Knowledge Bases."
+    authors: "S Hamilton, <strong>A Sun</strong>, O Romero, C Henneking, D Mimno, B Yang, I Labutov"
+    venue: "Findings of EMNLP"
     year: "2026"
+    venue_suffix: "."
     links:
       - label: "Paper"
         url: "https://arxiv.org/abs/2608.27391v1"
@@ -40,11 +42,11 @@ publications:
       - label: "Dataset"
         url: "https://huggingface.co/datasets/epiq-ai-labs/corporatebench"
 
-  - title: "CONSCENDI: A Contrastive and Scenario-Guided Distillation Approach to Guardrail Models for Virtual Assistants"
-    authors: "<strong>Albert Yu Sun</strong>, Varun Nair, Elliot Schumacher, Anitha Kannan"
+  - title: "CONSCENDI: A Contrastive and Scenario-Guided Distillation Approach to Guardrail Models for Virtual Assistants."
+    authors: "<strong>A Sun</strong>, V Nair, E Schumacher, A Kannan"
     venue: "NAACL"
     year: "2024"
-    patent: "US Patent 12,259,952"
+    venue_suffix: ". Granted US Patent 12,259,952 B2"
     links:
       - label: "Paper"
         url: "https://arxiv.org/abs/2304.14364"
@@ -53,10 +55,11 @@ publications:
       - label: "Patent"
         url: "https://patents.google.com/patent/US12259952B2/en"
 
-  - title: "Does fine-tuning GPT-3 with the OpenAI API leak personally-identifiable information?"
-    authors: "<strong>Albert Yu Sun</strong>, Eliott Zemour, Arushi Saxena, Udith Vaidyanathan, Eric Lin, Christian Lau, Vaikkunth Mugunthan"
+  - title: "Does Fine-Tuning GPT-3 with the OpenAI API Leak Personally-Identifiable Information?"
+    authors: "<strong>A Sun</strong>, E Zemour, A Saxena, U Vaidyanathan, E Lin, C Lau, V Mugunthan"
     venue: "arXiv"
     year: "2023"
+    venue_suffix: ". (35+ citations)"
     links:
       - label: "Paper"
         url: "https://arxiv.org/abs/2307.16382"
