@@ -23,13 +23,13 @@ contact:
     url: https://twitter.com/Albertyusun
 
 publications:
-  - title: "InvestigationWorlds: An Agentic Environment for Legal Investigation."
+  - title: "InvestigationWorlds: An Agentic Environment for Legal Investigation"
     authors: "<strong>A Sun</strong>, <a href=\"https://andrewbenard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">A Benard</a>, <a href=\"https://silhamilton.com/\" target=\"_blank\" rel=\"noopener noreferrer\">S Hamilton</a>, <a href=\"https://worldlawyersforum.org/wlf-2026-litigation-europe/anna-teresita-teri-marcelo/\" target=\"_blank\" rel=\"noopener noreferrer\">A Marcelo</a>, <a href=\"https://www.linkedin.com/in/yong-jae-kim-935262128\" target=\"_blank\" rel=\"noopener noreferrer\">Y Kim</a>, <a href=\"https://www.henneking.com/\" target=\"_blank\" rel=\"noopener noreferrer\">C Henneking</a>, <a href=\"https://www.linkedin.com/in/rundong-hu\" target=\"_blank\" rel=\"noopener noreferrer\">R Hu</a>, <a href=\"https://www.linkedin.com/in/yuhong-wang-03a9aa140/\" target=\"_blank\" rel=\"noopener noreferrer\">Y Wang</a>, <a href=\"https://mimno.infosci.cornell.edu/\" target=\"_blank\" rel=\"noopener noreferrer\">D Mimno</a>, <a href=\"https://www.bishanyang.com/\" target=\"_blank\" rel=\"noopener noreferrer\">B Yang</a>, <a href=\"https://igorlabutov.com/\" target=\"_blank\" rel=\"noopener noreferrer\">I Labutov</a>"
     venue: "NeurIPS E&D"
     year: "2026"
     venue_suffix: "."
 
-  - title: "CorporateBench: Large-Scale Q&A Benchmarking with Temporal Knowledge Bases."
+  - title: "CorporateBench: Large-Scale Q&A Benchmarking with Temporal Knowledge Bases"
     authors: "<a href=\"https://silhamilton.com/\" target=\"_blank\" rel=\"noopener noreferrer\">S Hamilton</a>, <strong>A Sun</strong>, <a href=\"https://www.cs.cmu.edu/~oscarr/\" target=\"_blank\" rel=\"noopener noreferrer\">O Romero</a>, <a href=\"https://www.henneking.com/\" target=\"_blank\" rel=\"noopener noreferrer\">C Henneking</a>, <a href=\"https://mimno.infosci.cornell.edu/\" target=\"_blank\" rel=\"noopener noreferrer\">D Mimno</a>, <a href=\"https://www.bishanyang.com/\" target=\"_blank\" rel=\"noopener noreferrer\">B Yang</a>, <a href=\"https://igorlabutov.com/\" target=\"_blank\" rel=\"noopener noreferrer\">I Labutov</a>"
     venue: "EMNLP Findings"
     year: "2026"
@@ -42,7 +42,7 @@ publications:
       - label: "Dataset"
         url: "https://huggingface.co/datasets/epiq-ai-labs/corporatebench"
 
-  - title: "CONSCENDI: A Contrastive and Scenario-Guided Distillation Approach to Guardrail Models for Virtual Assistants."
+  - title: "CONSCENDI: A Contrastive and Scenario-Guided Distillation Approach to Guardrail Models for Virtual Assistants"
     authors: "<strong>A Sun</strong>, <a href=\"https://www.harvey.ai/blog/author/varun-nair\" target=\"_blank\" rel=\"noopener noreferrer\">V Nair</a>, <a href=\"https://elliotschu.com/\" target=\"_blank\" rel=\"noopener noreferrer\">E Schumacher</a>, <a href=\"https://aicouncil.com/speakers/anitha-kannan\" target=\"_blank\" rel=\"noopener noreferrer\">A Kannan</a>"
     venue: "NAACL"
     year: "2024"
