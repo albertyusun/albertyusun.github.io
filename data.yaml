@@ -59,7 +59,7 @@ publications:
     authors: "<strong>A Sun</strong>, <a href=\"https://www.linkedin.com/in/eliott-zemour\" target=\"_blank\" rel=\"noopener noreferrer\">E Zemour</a>, <a href=\"https://arushi-saxena27.medium.com/\" target=\"_blank\" rel=\"noopener noreferrer\">A Saxena</a>, <a href=\"https://logicflo.ai/contact-card\" target=\"_blank\" rel=\"noopener noreferrer\">U Vaidyanathan</a>, <a href=\"https://www.linkedin.com/in/ericzlin\" target=\"_blank\" rel=\"noopener noreferrer\">E Lin</a>, <a href=\"https://www.linkedin.com/in/christian-lau-18055546\" target=\"_blank\" rel=\"noopener noreferrer\">C Lau</a>, <a href=\"https://www.linkedin.com/in/vaikkunth\" target=\"_blank\" rel=\"noopener noreferrer\">V Mugunthan</a>"
     venue: "arXiv"
     year: "2023"
-    venue_suffix: ". (35+ citations)."
+    venue_suffix: ". 35+ citations."
     links:
       - label: "Paper"
         url: "https://arxiv.org/abs/2307.16382"
