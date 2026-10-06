@@ -28,6 +28,9 @@ publications:
     venue: "NeurIPS E&D"
     year: "2026"
     venue_suffix: "."
+    links:
+      - label: "Paper"
+        url: "https://arxiv.org/abs/2610.04129"
 
   - title: "CorporateBench: Large-Scale Q&A Benchmarking with Temporal Knowledge Bases"
     authors: "<a href=\"https://silhamilton.com/\" target=\"_blank\" rel=\"noopener noreferrer\">S Hamilton</a>, <strong>A Sun</strong>, <a href=\"https://www.cs.cmu.edu/~oscarr/\" target=\"_blank\" rel=\"noopener noreferrer\">O Romero</a>, <a href=\"https://www.henneking.com/\" target=\"_blank\" rel=\"noopener noreferrer\">C Henneking</a>, <a href=\"https://mimno.infosci.cornell.edu/\" target=\"_blank\" rel=\"noopener noreferrer\">D Mimno</a>, <a href=\"https://www.bishanyang.com/\" target=\"_blank\" rel=\"noopener noreferrer\">B Yang</a>, <a href=\"https://igorlabutov.com/\" target=\"_blank\" rel=\"noopener noreferrer\">I Labutov</a>"
