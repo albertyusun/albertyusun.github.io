@@ -3,7 +3,7 @@
   {title:'Coffee', detail:'Big fan of specialty coffee, especially lattes. Coffee Collective and SEY are my favorite roasteries.',src:'coffee.jpg',alt:'Lattes at Coffee Collective',position:'center 78%'},
   {title:'Travel',detail:'I love traveling! My friend Chris and me in Copenhagen, 2026.',src:'travel.jpg',alt:'Albert and Chris in Copenhagen',position:'center 60%'},
   {title:'Powerlifting',detail:'I’m a powerlifter! Here’s my 506 lb squat in a competition back in 2025.',src:'powerlifting.mp4',video:true},
-  {title:'Olympic Weightlifting',detail:'I’m an avid strength athlete. My 264 lb clean and jerk at USAW Nationals 2026.',src:'weightlifting-trimmed.mp4',video:true},
+  {title:'Olympic Weightlifting',detail:'I’m also a weightlifter! My 264 lb clean and jerk at USAW Nationals 2026.',src:'weightlifting-trimmed.mp4',video:true},
   {title:'Outdoors',detail:'I enjoy wandering outdoors. Exploring Yosemite with two of my homies.',src:'outdoors.jpeg',alt:'Three friends exploring Yosemite',position:'center 76%'},
   {title:'Baking',detail:'Matcha roll cakes I made with my friend Frank!',src:'baking.jpg',alt:'Homemade matcha roll cakes',position:'center 75%'}
  ];
