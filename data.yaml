@@ -44,6 +44,9 @@ publications:
         url: "https://corporatebench.epiqai.com/"
       - label: "Dataset"
         url: "https://huggingface.co/datasets/epiq-ai-labs/corporatebench"
+    recognition:
+      label: "Fireworks’ Specialized Intelligence Index"
+      url: "https://fireworks.ai/specialized-intelligence-index/benchmarks/legal/epiq-laer-corporatebench"
 
   - title: "CONSCENDI: A Contrastive and Scenario-Guided Distillation Approach to Guardrail Models for Virtual Assistants"
     authors: "<strong>A Sun</strong>, <a href=\"https://www.harvey.ai/blog/author/varun-nair\" target=\"_blank\" rel=\"noopener noreferrer\">V Nair</a>, <a href=\"https://elliotschu.com/\" target=\"_blank\" rel=\"noopener noreferrer\">E Schumacher</a>, <a href=\"https://aicouncil.com/speakers/anitha-kannan\" target=\"_blank\" rel=\"noopener noreferrer\">A Kannan</a>"

@@ -58,6 +58,10 @@
                         {% if pub.workshops %}
                         <div class="pub-workshops">Also presented at: {{ pub.workshops|join(', ') }}</div>
                         {% endif %}
+                        {% if pub.recognition %}
+                        <div class="pub-awards">🏆 Featured in <strong><a href="{{ pub.recognition.url }}" target="_blank" rel="noopener noreferrer">{{ pub.recognition.label }}</a></strong> for model evaluation.</div>
+                        {% endif %}
+
                         {% if pub.awards %}
                         <div class="pub-awards">🏆 {{ pub.awards|join(', ') }}</div>
                         {% endif %}
