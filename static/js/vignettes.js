@@ -27,9 +27,10 @@
   const old=media.querySelector('video');if(old)old.pause();
   media.replaceChildren();
   const el=document.createElement(story.video?'video':'img');el.src='static/media/life/'+story.src;
-  if(story.video){el.controls=true;el.muted=true;el.playsInline=true;el.preload='metadata';el.setAttribute('aria-label',story.detail);}
+  if(story.video){el.controls=true;el.muted=true;el.defaultMuted=true;el.autoplay=true;el.playsInline=true;el.preload='metadata';el.setAttribute('aria-label',story.detail);el.addEventListener('pointerenter',()=>el.play().catch(()=>{}));}
   else {el.alt=story.alt;el.style.objectPosition=story.position;}
   media.append(el);
+  if(story.video)el.play().catch(()=>{});
   panel.querySelector('.life-title').textContent=story.title;
   panel.querySelector('.life-detail').textContent=story.detail;
   [...topics.children].forEach((b,n)=>b.setAttribute('aria-pressed',String(n===index)));
