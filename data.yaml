@@ -1,9 +1,11 @@
-name: Albert Sun
+name: Albert Yu Sun
 role: Founding Research Engineer
 company: Epiq AI Labs
 location: New York City, NY
 
-photo: albert.jpeg
+bio: 'I’m the Founding Research Engineer at Epiq AI Labs in NYC. My legal reasoning benchmarks appear at NeurIPS, EMNLP, and in Fireworks AI’s Specialized Intelligence Index. Previously, I worked on AI security and interpretability at Microsoft Research, Dynamo AI, and Curai Health.'
+
+photo: albertsun.png
 
 contact:
   - prefix: "Email:"
