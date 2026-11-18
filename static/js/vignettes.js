@@ -13,6 +13,10 @@
  const trigger=document.createElement('button');
  trigger.className='life-trigger';trigger.type='button';trigger.setAttribute('aria-label','Explore life outside research');trigger.setAttribute('aria-expanded','false');trigger.setAttribute('aria-controls','life-panel');
  img.replaceWith(trigger);trigger.append(img);
+ const hint=document.createElementNS('http://www.w3.org/2000/svg','svg');
+ hint.classList.add('life-curve-hint');hint.setAttribute('viewBox','0 0 200 200');hint.setAttribute('aria-hidden','true');
+ hint.innerHTML='<defs><path id="life-hint-arc" d="M 77 185 A 88 88 0 0 0 185 77" /></defs><text><textPath href="#life-hint-arc" startOffset="4%">click to see more!</textPath></text>';
+ trigger.append(hint);
  const panel=document.createElement(kind==='photo-viewer'?'dialog':'section');
  panel.id='life-panel';panel.className='life-panel';panel.setAttribute('aria-label','Life outside research');
  if(kind!=='photo-viewer') panel.hidden=true;
@@ -51,7 +55,7 @@
  trigger.addEventListener('pointerleave',leave);
  panel.addEventListener('pointerenter',cancelLeave);
  panel.addEventListener('pointerleave',leave);
- trigger.addEventListener('click',open);
+ trigger.addEventListener('click',()=>{cancelLeave();if(opened)render(index+1);else open();});
  panel.addEventListener('keydown',e=>{if(e.key==='ArrowRight'){e.preventDefault();render(index+1);}if(e.key==='ArrowLeft'){e.preventDefault();render(index-1);}});
  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&opened)close();});
  panel.addEventListener('cancel',e=>{e.preventDefault();close();});

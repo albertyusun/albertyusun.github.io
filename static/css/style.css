@@ -351,7 +351,8 @@ body {font-family:'IBM Plex Sans',sans-serif;}
 .contact-icon-cv {font-variant:normal;letter-spacing:0;font-weight:500;}
 
 .profile-photo{position:relative;}
-.life-trigger{display:block;border:0;background:none;border-radius:50%;padding:0;cursor:pointer;}
+.life-trigger{position:relative;display:block;border:0;background:none;border-radius:50%;padding:0;cursor:pointer;}
+.life-curve-hint{position:absolute;inset:-16%;width:132%;height:132%;overflow:visible;pointer-events:none;fill:#426c54;font-family:'IBM Plex Sans',sans-serif;font-size:12px;font-weight:500;letter-spacing:.3px;}
 .life-trigger:focus-visible{outline:2px solid #426c54;outline-offset:6px;}
 .life-trigger img{transition:transform .2s,border-color .2s;}
 .life-trigger:hover img{transform:scale(1.035);border-color:#426c54;}
