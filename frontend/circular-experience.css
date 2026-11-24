@@ -1,0 +1,4 @@
+#circular-experience{height:420px;margin:0 20px;}
+#circular-experience .circular-gallery{border-radius:12px;}
+#circular-experience .circular-gallery:focus-within{outline:2px solid #9ab7a0;outline-offset:3px;}
+@media(max-width:600px){#circular-experience{height:380px;margin:0 12px;}}

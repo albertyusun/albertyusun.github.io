@@ -1,30 +1,22 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {createRoot} from 'react-dom/client';
-import CardSwap, {Card} from './CardSwap';
+import CircularGallery from './CircularGallery';
+import './circular-experience.css';
 import {ResearchTimeline} from './ResearchTimeline';
 import './work-experience.css';
 import './education.css';
 
-const logos=['epiq.svg','dynamo.svg','curai.svg','microsoft.png','vera-full.svg','aclu.png'];
 function Experience({roles}){
- const [small,setSmall]=useState(window.innerWidth<=650);
- useEffect(()=>{
-  const mq=window.matchMedia('(max-width:650px)');
-  const update=()=>setSmall(mq.matches);
-  mq.addEventListener('change',update);
-  return ()=>mq.removeEventListener('change',update);
- },[]);
  const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
- return <div className="work-exploration variant-light"><div className="light-layout"><div className="light-deck">
-  <CardSwap theme="light" width={small?300:620} height={small?175:145}
-   cardDistance={small?12:72} verticalDistance={small?14:16} depth={small?35:22} skewAmount={small?0:1.5}
-   visibleCards={Math.min(3,roles.length)} autoplay={false} parallax={.15} hoverSpread={.08} bounce={.2} intro={!reduced}>
-   {roles.map((role,i)=><Card key={role.organization}><article className="work-tile">
-    <img className="tile-logo" src={'static/images/companies/'+logos[i]} alt={role.organization+' logo'} draggable={false}/>
-    <div><p className="tile-role">{role.title}</p><p className="tile-dates">{role.years.replace('-','–')}</p></div>
-   </article></Card>)}
-  </CardSwap>
- </div></div></div>;
+ const items=roles.map((role,i)=>({
+  image:'static/media/experience/role-'+i+'.svg?v=1',
+  text:role.organization,
+  alt:role.organization+', '+role.title+', '+role.years
+ }));
+ return <div id="circular-experience"><CircularGallery items={items} bend={2.5} textColor="#426c54" borderRadius={.055} font="400 22px Arial"
+  scrollSpeed={1.2} scrollEase={reduced?1:.065} itemSize={1} itemAspect={1} gap={.10}
+  wave={reduced?0:.08} fadeEdges={.07} shadow={.08} showTitles={false} snap autoScroll={0}
+  intro={!reduced} aria-label="Work experience"/></div>;
 }
 const workMount=document.getElementById('work-exploration');
 if(workMount)createRoot(workMount).render(<Experience roles={JSON.parse(document.getElementById('work-data').textContent)}/>);
