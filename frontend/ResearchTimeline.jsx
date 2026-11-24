@@ -16,7 +16,7 @@ export function ResearchTimeline({data}){
    const first=node.firstElementChild;
    const last=node.lastElementChild;
    if(!first||!last){setTrack({top:0,height:0});return;}
-   // Use row positions so sticky dates do not affect the measured endpoints.
+   // Anchor the spine to the first and last row centers after resizing.
    const start=first.offsetTop+first.querySelector('.research-timeline-date').offsetHeight/2;
    const end=last.offsetTop+last.querySelector('.research-timeline-date').offsetHeight/2;
    setTrack({top:start,height:Math.max(0,end-start)});
