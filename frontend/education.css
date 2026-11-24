@@ -1,5 +1,5 @@
 .education-row{margin:0 20px;display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center;padding:8px 0;}
-.education-logo{display:block;width:160px;height:auto;max-width:100%;}
+.education-logo{display:block;width:120px;height:auto;max-width:100%;}
 .education-row .education-degree{font-size:17px;line-height:1.5;color:#455b4d;}
 .education-row .education-years{font-size:14px;color:#607564;margin-top:6px;}
-@media(max-width:600px){.education-row{grid-template-columns:1fr;gap:8px;}}
+@media(max-width:600px){.education-row{grid-template-columns:1fr;gap:8px;}.education-logo{width:100px;}}
