@@ -3,6 +3,7 @@ import {createRoot} from 'react-dom/client';
 import CardSwap, {Card} from './CardSwap';
 import {ResearchTimeline} from './ResearchTimeline';
 import './work-experience.css';
+import './education.css';
 
 const logos=['epiq.svg','dynamo.svg','curai.svg','microsoft.png','vera-full.svg','aclu.png'];
 function Experience({roles}){
@@ -15,8 +16,8 @@ function Experience({roles}){
  },[]);
  const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
  return <div className="work-exploration variant-light"><div className="light-layout"><div className="light-deck">
-  <CardSwap theme="light" width={small?300:620} height={small?210:230}
-   cardDistance={small?12:72} verticalDistance={small?18:26} depth={small?35:22} skewAmount={small?0:1.5}
+  <CardSwap theme="light" width={small?300:620} height={small?175:145}
+   cardDistance={small?12:72} verticalDistance={small?14:16} depth={small?35:22} skewAmount={small?0:1.5}
    visibleCards={Math.min(3,roles.length)} autoplay={false} parallax={.15} hoverSpread={.08} bounce={.2} intro={!reduced}>
    {roles.map((role,i)=><Card key={role.organization}><article className="work-tile">
     <img className="tile-logo" src={'static/images/companies/'+logos[i]} alt={role.organization+' logo'} draggable={false}/>

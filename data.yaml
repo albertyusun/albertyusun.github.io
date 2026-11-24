@@ -7,6 +7,12 @@ bio: 'I’m the Founding Research Engineer at Epiq AI Labs in NYC. My legal reas
 
 photo: albertsun.png
 
+education:
+  organization: Duke University
+  degree: B.S. Computer Science
+  years: "2019–2023"
+  logo: duke.svg
+
 contact:
   - prefix: "Email:"
     label: alsunyu@gmail.com

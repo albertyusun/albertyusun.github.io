@@ -13,3 +13,13 @@
 .tile-role{font-size:20px;}
 .tile-dates{font-size:14px;margin-top:7px;}
 }
+
+#work .light-deck{height:220px;}
+#work>h2{margin-bottom:0;}
+#work{margin-bottom:20px;}
+#work .work-tile{padding:26px;}
+@media(max-width:650px){
+#work .light-deck{height:235px;}
+#work .work-tile{padding:18px;gap:14px;}
+#work .tile-logo{width:150px;height:48px;}
+}

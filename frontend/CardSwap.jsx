@@ -65,7 +65,7 @@ const DEFAULT_ITEMS = [
 const PERSPECTIVE = 900;
 const TAU = Math.PI * 2;
 const STEP = 1 / 240;
-const PAD = 32;
+const PAD = 14;
 const AXES = ['x', 'y', 'z', 'r', 'p'];
 const DOWN = { x: 0, y: 1 };
 
