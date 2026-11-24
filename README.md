@@ -9,6 +9,7 @@ A static academic profile website powered by YAML configuration and deployed on 
 1. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
+   npm ci
    ```
 
 2. **Edit your data:**
@@ -16,6 +17,7 @@ A static academic profile website powered by YAML configuration and deployed on 
 
 3. **Build the site:**
    ```bash
+   npm run build:components  # When changing frontend components or styles
    python build.py
    ```
    This generates `index.html` from your YAML data.
@@ -28,7 +30,7 @@ A static academic profile website powered by YAML configuration and deployed on 
 
 5. **Deploy:**
    ```bash
-   git add index.html data.yaml
+   git add index.html data.yaml templates static frontend package.json package-lock.json
    git commit -m "Update profile"
    git push
    ```
@@ -83,4 +85,4 @@ These files are used for development but not deployed to GitHub Pages:
 - **Styling:** Modify `static/css/style.css`
 - **Template:** Edit `templates/index_static.html`
 
-After changes, always run `python build.py` to regenerate `index.html`.
+After data or template changes, run `python build.py` to regenerate `index.html`. After changing `frontend/`, run `npm run build:components` and commit the generated files in `static/site/` as well.

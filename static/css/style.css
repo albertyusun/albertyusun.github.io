@@ -322,10 +322,10 @@ a {color:#426c54;}
 @media(prefers-reduced-motion:reduce){.pub-links a{transition:none;}}
 
 
-.profile-header {display:grid;grid-template-columns:minmax(0,1fr) 154px;grid-template-areas:"name photo" "intro photo" "links photo";column-gap:38px;row-gap:14px;margin:0 20px 36px;align-items:start;}
+.profile-header {display:grid;grid-template-columns:minmax(0,1fr) 154px;grid-template-areas:"name photo" "intro photo" "links photo";column-gap:38px;row-gap:10px;margin:0 20px 36px;align-items:start;}
 .name {grid-area:name;text-align:left;margin:0;line-height:1.15;letter-spacing:.015em;font-size:2.5rem;}
 .intro {grid-area:intro;}
-.intro p {line-height:1.75;}
+.intro p {line-height:1.45;}
 .contact-icons {grid-area:links;justify-content:flex-start;gap:18px;margin:0;}
 .contact-icon {display:inline-flex;align-items:center;justify-content:center;min-width:28px;min-height:32px;font-size:1.2rem;}
 .contact-icon-cv {font-size:.95rem;}
@@ -407,3 +407,12 @@ body {font-family:'IBM Plex Sans',sans-serif;}
 [data-vignette-view=postcard] .life-close {position:absolute;right:10px;top:10px;z-index:1;background:#fffffff0;color:#365643;box-shadow:0 1px 5px #17332312;}
 [data-vignette-view=postcard] .life-close:hover {background:#fff;}
 [data-vignette-view=postcard] .life-copy {padding:18px;}
+
+/* Publication titles lead; supporting details stay quiet. */
+.pub-title {font-size:1.2rem;font-weight:600;line-height:1.35;margin-bottom:4px;letter-spacing:-.012em;}
+.pub-authors,.pub-venue,.pub-workshops,.pub-awards {font-size:.9rem;line-height:1.45;font-weight:400;color:#607564;}
+.publication-item strong,.publication-item a {font-weight:400;}
+.pub-authors a {color:inherit;text-decoration-color:#b5c6ba;text-underline-offset:2px;}
+.pub-authors a:hover {color:#234e35;text-decoration-color:currentColor;}
+.pub-awards a {color:inherit;}
+@media(max-width:600px){.pub-title{font-size:1.1rem;}.intro p{line-height:1.45;}}

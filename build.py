@@ -18,6 +18,7 @@ def build_site():
 
     # Render template with data using static paths
     html = template.render(data=data)
+    html = '\n'.join(line.rstrip() for line in html.splitlines()) + '\n'
 
     # Write to index.html in root directory
     with open('index.html', 'w') as f:

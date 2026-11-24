@@ -11,3 +11,7 @@ ENV/
 dist/
 build/
 .DS_Store
+
+node_modules/
+.env
+.env.*

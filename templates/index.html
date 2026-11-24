@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ data.name }}</title>
-    <link rel="stylesheet" href="static/css/style.css?v=16">
+    <link rel="stylesheet" href="static/css/style.css?v=17">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <script src="https://unpkg.com/htmx.org@1.9.10"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script src="static/js/vignettes.js?v=5" defer></script>
+<link rel="stylesheet" href="static/site/site.css?v=1">
+<script src="static/site/site.js?v=1" defer></script>
 </head>
-<body data-vignette-view="postcard">
+<body id="top" data-vignette-view="postcard">
 <div class="container">
         <header class="profile-header">
 <h1 class="name">{{ data.name }}</h1>
@@ -77,8 +79,9 @@
             </section>
             {% endif %}
 
-            <section class="section">
+            <section class="section" id="work">
                 <h2>Experience</h2>
+                <div id="work-exploration">
                 <ul class="experience-list">
                     {% for exp in data.previous_experiences %}
                     <li>
@@ -86,10 +89,12 @@
                     </li>
                     {% endfor %}
                 </ul>
+                </div>
             </section>
 
-            <section class="section">
+            <section class="section" id="research-news">
                 <h2>Research News</h2>
+                <div id="research-news-timeline">
                 <ul class="news-list">
                     {% for news in data.research_news %}
                     <li>
@@ -97,6 +102,7 @@
                     </li>
                     {% endfor %}
                 </ul>
+                </div>
             </section>
         </main>
 
@@ -104,5 +110,7 @@
             <p>&copy; 2026 {{ data.name }}. All rights reserved.</p>
         </footer>
     </div>
+<script id="work-data" type="application/json">{{ data.previous_experiences|tojson }}</script>
+<script id="research-news-data" type="application/json">{{ data.research_news|tojson }}</script>
 </body>
 </html>

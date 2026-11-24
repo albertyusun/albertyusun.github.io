@@ -1,0 +1,18 @@
+{
+  "name": "albert-sun-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:components": "esbuild frontend/site.jsx --bundle --minify --jsx=automatic --outdir=static/site --entry-names=site"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "motion": "^14.14.0",
+    "@hugeicons/react": "^1.1.10",
+    "@hugeicons/core-free-icons": "^4.4.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
