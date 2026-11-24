@@ -20,7 +20,7 @@ A static academic profile website powered by YAML configuration and deployed on 
    npm run build:components  # When changing frontend components or styles
    python build.py
    ```
-   This generates `index.html` and the experience gallery card images from your YAML data.
+   This generates `index.html` from your YAML data.
 
 4. **Preview locally:**
    ```bash

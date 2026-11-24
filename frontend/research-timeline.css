@@ -3,11 +3,10 @@
 .research-timeline-entry{display:grid;grid-template-columns:185px minmax(0,1fr);gap:22px;position:relative;padding:0 0 38px;}
 .research-timeline-entry:last-child{padding-bottom:14px;}
 .research-timeline-date{position:relative;align-self:start;display:flex;align-items:center;gap:18px;z-index:2;font-size:14px;line-height:1.65;color:#587862;font-weight:500;}
-.research-timeline-dot{display:block;flex:none;width:15px;height:15px;border:3px solid #fff;border-radius:50%;background:#96b49e;box-shadow:0 0 0 1px #c5d6c8;}
+.research-timeline-dot{display:block;flex:none;width:15px;height:15px;border:0;border-radius:50%;background:radial-gradient(circle,#96b49e 0 4.5px,transparent 4.7px);box-shadow:none;}
 .research-timeline-content{min-width:0;padding-bottom:2px;}
 .research-timeline-content p{font-size:15px;line-height:1.65;color:#455b4d;margin:0;}
 .research-timeline-track{position:absolute;left:6.5px;width:2px;background:#dce7de;overflow:hidden;z-index:0;}
-.research-timeline-progress{position:absolute;inset:0 0 auto;width:2px;border-radius:2px;background:linear-gradient(to bottom,#a8c5ae 0%,#426c54 45%,#426c54 100%);}
 @media(max-width:600px){
 .research-timeline{margin-top:24px;}
 .research-timeline-entry{grid-template-columns:minmax(0,1fr);gap:9px;padding-bottom:28px;padding-left:31px;}

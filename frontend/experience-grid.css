@@ -1,0 +1,9 @@
+#work.section>h2{margin-bottom:18px;}
+#work.section{margin-bottom:32px;}
+.experience-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;list-style:none;margin:0 20px;padding:0;}
+.experience-grid-card{display:flex;flex-direction:column;align-items:flex-start;gap:20px;min-width:0;min-height:140px;padding:20px;background:#fff;border:1px solid #e4ebe5;border-radius:0;box-shadow:none;}
+.experience-grid-card img{display:block;width:150px;height:40px;max-width:100%;object-fit:contain;object-position:left center;}
+.grid-role{font-size:16px;line-height:1.35;color:#273e33;margin:0;}
+.grid-dates{font-size:13px;line-height:1.4;color:#607564;margin-top:5px;}
+@media(max-width:760px){.experience-grid{grid-template-columns:repeat(2,minmax(0,1fr));}.experience-grid-card{padding:18px;}}
+@media(max-width:430px){.experience-grid{grid-template-columns:minmax(0,1fr);gap:12px;}.experience-grid-card{flex-direction:row;align-items:center;min-height:108px;gap:18px;padding:18px;}.experience-grid-card img{width:110px;height:36px;flex-shrink:0;}.grid-role{font-size:15px;}.grid-dates{font-size:12px;}}
