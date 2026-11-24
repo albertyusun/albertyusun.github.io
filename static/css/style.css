@@ -416,3 +416,11 @@ body {font-family:'IBM Plex Sans',sans-serif;}
 .pub-authors a:hover {color:#234e35;text-decoration-color:currentColor;}
 .pub-awards a {color:inherit;}
 @media(max-width:600px){.pub-title{font-size:1.1rem;}.intro p{line-height:1.45;}}
+
+/* Compensate for the portrait SVG scaling down on small screens. */
+@media(max-width:600px){
+.profile-photo .life-trigger .life-curve-hint{inset:-21%;width:142%;height:142%;font-size:17px;letter-spacing:.2px;}
+}
+@media(max-width:380px){
+.profile-photo .life-trigger .life-curve-hint{font-size:21px;}
+}
